@@ -1,0 +1,9 @@
+.logo-img-fixed {
+  position: fixed !important;
+  top: -5vh !important;
+}
+
+.logo-incs-fixed {
+  position: fixed !important;
+  top: -8vh !important;
+}
