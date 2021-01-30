@@ -1,6 +1,37 @@
 module.exports = {
   siteMetadata: {
     title: "Mirna",
+
+    navLinks: {
+      left: [
+        {
+          name: 'news',
+          to: '/news'
+        },
+        {
+          name: 'książki',
+          to: '/books'
+        },
+        {
+          name: 'sklep',
+          to: '/shop'
+        },
+        {
+          name: 'pomoc',
+          to: '/support'
+        },
+      ],
+      right: [
+        {
+          name: 'forum',
+          to: '/forum'
+        },
+        {
+          name: 'wiki',
+          to: '/wiki'
+        },
+      ]
+    }
   },
   plugins: [
     "gatsby-plugin-styled-components",
